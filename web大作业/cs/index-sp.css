@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #DDF5FC;
+}
+*{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	
+}
+
+.hesp{
+	width: 100%;
+	height: 150px;
+	background-color: #F5F5F5;
+	min-width: 2180px;
+	
+}
+.hesp img{
+	height: 150px;
+	width: 100%;
+}
+.allsp a{
+	text-decoration: none;
+	color: #fff;
+}
+.allsp{
+	width: 100%;
+	height: 70px;
+	font-size: 24px;
+	font-weight:bold;
+	content: '';
+	display: block;
+	clear: both;
+	background-color: #99D9E5;
+	min-width: 2180px;
+}
+
+.fsp{
+	background-color:#99D9E5;
+	width:1500px;
+	height: 70px;
+	margin: 0 700px;
+	
+
+}
+.fsp ul li{
+	float: left;
+	padding: 20px 70px;
+	position: relative;
+	
+	
+}
+.fsp ul li div {
+	position: absolute;
+	width: 200px;
+	
+
+}
+.fsp ul li a:hover{
+	background-color: #84F0D0;
+}
+.fsp ul li div{
+	background-color: #99D9E5;
+	width: 200px;
+	position: absolute;
+	top:70px;
+	left: 50%;
+	margin-left: -100px;
+	text-align: center;
+	font-size: 18px;
+	display: none;
+	
+}
+.fsp ul li:hover div{
+	display: block;
+	
+}
+.fsp ul li  div a{
+	display: block;
+	height: 40px;
+	
+}
+li{
+	list-style-type: none;
+}
+
+.t{
+	width: 100%;
+	height: 60px;
+	margin: 20px 0px;
+	font-size: 22px;
+	background-color: #F2F2F2;
+	line-height: 60px;
+	border-bottom: 10px solid #F2F2F2;
+}
+
+.t a{
+	text-decoration: none;
+	margin: 0 20px;
+	display: inline-block;
+	height: 20px;
+	padding-bottom: 45px;
+	
+}
+.t a:hover{
+	border-bottom: 3px solid red;
+	font-weight: bold;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #99D9E5;
+	display: flex;
+	border-top: 2px solid #8B8B8B;
+	text-align: center;
+	line-height: 60px;
+}
+.footer div{
+	width: 100%;
+	background-color: #DDF5FC;
+	height: 60px;
+	
+	
+}
+
+
+.z{
+	width: 100%;
+	height: 1200px;
+	margin-top: 20px;
+	font-size: 22px;
+	background-color: #F2F2F2;
+	line-height: 60px;
+}
+.zz{
+	display: flex;
+	overflow-x: hidden;
+	flex-wrap: wrap;
+}
+.z div video{
+	width: 500px;
+	height: 300px;
+	margin: 20px 20px;
+	float: left;
+	box-shadow: 0 0 15px 3px;
+	border-radius: 20px; 
+}
+ video::-webkit-media-controls-fullscreen-button {
+        display:contents;
+    }

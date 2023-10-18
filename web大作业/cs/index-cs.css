@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #DDF5FC;
+	min-width: 2300px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	
+}
+
+.he{
+	width: 100%;
+	height: 150px;
+	background-color: #F5F5F5;
+	
+	
+}
+.he img{
+	height: 150px;
+	width: 100%;
+}
+.all a{
+	text-decoration: none;
+	color: #fff;
+}
+.all{
+	width: 100%;
+	height: 70px;
+	font-size: 24px;
+	font-weight:bold;
+	content: '';
+	display: block;
+	clear: both;
+	background-color: #99D9E5;
+	min-width: 2180px;
+}
+
+.f{
+	background-color:#99D9E5;
+	width:1500px;
+	height: 70px;
+	margin: 0 700px;
+	
+
+}
+.f ul li{
+	float: left;
+	padding: 20px 70px;
+	position: relative;
+	
+	
+}
+.f ul li div {
+	position: absolute;
+	width: 200px;
+	
+
+}
+.f ul li a:hover{
+	background-color: #84F0D0;
+}
+.f ul li div{
+	background-color: #99D9E5;
+	width: 200px;
+	position: absolute;
+	top:70px;
+	left: 50%;
+	margin-left: -100px;
+	text-align: center;
+	font-size: 18px;
+	display: none;
+	
+}
+.f ul li:hover div{
+	display: block;
+	
+}
+.f ul li  div a{
+	display: block;
+	height: 40px;
+	
+}
+
+/*.s{
+	float: right;
+	background-color:#99D9E5;
+	width: 20%;
+
+
+}
+
+.s ul li{
+	float: left;
+	padding: 20px 70px;
+
+}
+*/
+.st{
+	height: 60%;
+	width: 100%;
+	display: flex;
+	
+
+}
+.ml{
+	width: 25%;
+	float: left;
+	background-color: #DDF5FC;
+	border-right: 2px solid #8B8B8B;
+	min-width: 550px;
+	
+}
+
+.lll{
+	width: 500px;
+	height: 300px;
+	/*margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;*/
+	margin: 15px 20px;
+	padding: 10px;
+	text-align: center;
+
+
+}
+.con {
+    width: 400px;
+    height: 300px; 
+    float: left; 
+    margin: 0px 50px;
+    position: relative; 
+    box-shadow: 3px 3px 10px #666;
+    overflow:hidden;
+	border-radius: 20px;
+}
+.con span {
+    width: 248px;
+    height: 390px; 
+    background: #333;
+    position: absolute;
+    left: -500px;
+    top: 0px;
+    filter: Alpha(opacity=80);
+    -moz-opacity: 0.8; 
+    opacity: 0.8; 
+    padding: 20px; 
+    -webkit-transition: left 0.5s ease;
+}
+.con span h1 {
+    height: 30px;
+    color: #fff;
+    font-size:18px;
+    text-align: center;
+    position: relative;
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+.con span p {
+    line-height: 25px; 
+    font-size:14px; 
+    color: #fff;
+    position: relative; 
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+.con:hover span {
+    left:0px;
+}
+.con:hover span h1 {
+    left: 0px;
+}
+.con:hover span p {
+    left: 0px;
+}
+.mll{
+	width:400px;
+	height: 200px;
+	margin: 30px 80px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 30px;
+	box-shadow: 0 0 10px 2px;
+
+
+}
+.dlcon {
+    width: 400px;
+    height: 200px; 
+    float: left; 
+    position: relative; 
+    box-shadow: 3px 3px 10px #666;
+    overflow:hidden;
+	border-radius: 30px;
+}
+.dlcon span {
+    width: 248px;
+    height: 390px; 
+    background: #333;
+    position: absolute;
+    left: -500px;
+    top: 0px;
+    filter: Alpha(opacity=80);
+    -moz-opacity: 0.8; 
+    opacity: 0.8; 
+    padding: 20px; 
+    -webkit-transition: left 0.5s ease;
+}
+.dlcon span h1 {
+    height: 30px;
+    color: #fff;
+    font-size:18px;
+    text-align: center;
+    position: relative;
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+.dlcon span p {
+    line-height: 25px; 
+    font-size:14px; 
+    color: #fff;
+    position: relative; 
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+.dlcon:hover span {
+    left:0px;
+}
+.dlcon:hover span h1 {
+    left: 0px;
+}
+.dlcon:hover span p {
+    left: 0px;
+}
+.lll img{
+	width: 400px;
+	height: 300px;
+	border-radius: 20px;
+	box-shadow: 3 3 10px 2px;
+	
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin:20px 200px; 
+	box-shadow: 0 0 14px 2px;
+	
+}
+
+
+.mm{
+	width: 50%;
+	height: 60%;
+	float: left;
+	padding: 10px 0;
+	min-width: 1200px;
+
+
+}
+.mm  div img{
+	width: 1000px;
+	margin: 20px 110px;
+	box-shadow:0 0 14px 4px;
+	border-radius: 20px;
+}
+
+.ll{
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	margin-left: 350px;
+	margin-bottom: 20px;
+	text-align: center;
+	box-shadow: 0 0 14px 3px #8B8B8B;
+	border-radius: 30px;
+	
+
+
+}
+.ll img{
+	width: 550px;
+	height: 300px;
+	
+	
+}
+.llcon {
+    width: 550px;
+    height: 300px; 
+    float: left; 
+    position: relative; 
+    overflow: hidden;
+	border-radius: 30px;
+}
+.llcon span {
+    width: 320px;
+    height: 300px;
+    background: #333;
+    position: absolute;
+    left: -600px;
+    top: 0px;
+    filter: Alpha(opacity=80);
+    -moz-opacity: 0.8; 
+    opacity: 0.8; 
+    padding: 20px; 
+    -webkit-transition: left 0.5s ease;
+}
+.llcon span h1 {
+    height: 30px;
+    color: #fff;
+    font-size:18px;
+    text-align: center;
+    position: relative;
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+.llcon span p {
+    line-height: 25px; 
+    font-size:14px; 
+    color: #fff;
+    position: relative; 
+    left: -500px;
+    -webkit-transition: left 1s ease;
+}
+.llcon:hover span {
+    left:0px;
+}
+.llcon:hover span h1 {
+    left: 0px;
+}
+.llcon:hover span p {
+    left: 0px;
+}
+
+
+.mr{
+	width: 25%;
+	float: left;
+	border-left: 2px solid #8B8B8B;
+	min-width: 520px;
+
+	
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #99D9E5;
+	display: flex;
+	border-top: 2px solid #8B8B8B;
+	text-align: center;
+	line-height: 60px;
+}
+.footer div{
+	width: 100%;
+	background-color: #DDF5FC;
+	height: 60px;
+	
+	
+}
+li{
+	list-style-type: none;
+}
+
+.banner-container{
+	width:500px;
+	height:300px;
+	margin:1rem auto;
+	overflow: hidden;
+	position: relative;
+	border-radius: 30px;
+	margin: 50px 20px;
+	box-shadow: 0 0 15px 3px;
+}
+
+.banner-container .banner-img-container {
+	width:2500px;
+	height:300px;
+	overflow: hidden;
+	position: absolute;
+	display: flex;
+	animation: run 10s ease infinite;
+}
+
+.banner-container .banner-img-container img{
+	width:500px;
+	height:100%;
+}
+
+@keyframes run {
+	0%,10%{
+		transform: translateX(0);
+	}
+	20%,30%{
+		transform: translateX(-500px);
+	}
+	40%,50%{
+		transform: translateX(-1000px);
+	}
+	60%,70%{
+		transform: translateX(-1500px);
+	}
+	80%,90%{
+		transform: translateX(-2000px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
